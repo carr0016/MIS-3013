@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Variables.csproj", "{E953B507-4E83-4C24-82B7-75BF41AFB213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_ConditionalUnilRight", "Loop_ConditionalUnilRight\Loop_ConditionalUnilRight.csproj", "{7F301440-4B89-4623-BED1-3392D3481498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop_Summing", "Loop_Summing\Loop_Summing.csproj", "{C0D6D320-64B2-4817-92CE-8DE0A69C74AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E953B507-4E83-4C24-82B7-75BF41AFB213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E953B507-4E83-4C24-82B7-75BF41AFB213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E953B507-4E83-4C24-82B7-75BF41AFB213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F301440-4B89-4623-BED1-3392D3481498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F301440-4B89-4623-BED1-3392D3481498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F301440-4B89-4623-BED1-3392D3481498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F301440-4B89-4623-BED1-3392D3481498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D6D320-64B2-4817-92CE-8DE0A69C74AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D6D320-64B2-4817-92CE-8DE0A69C74AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D6D320-64B2-4817-92CE-8DE0A69C74AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D6D320-64B2-4817-92CE-8DE0A69C74AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
