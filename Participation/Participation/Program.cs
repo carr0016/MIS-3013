@@ -14,12 +14,12 @@ namespace Participation
             Console.WriteLine(message);
 
             Console.WriteLine("What word do you want to look for in the above statement");
-            string UserResponse = Console.ReadLine();
+            string UserResponse = Console.ReadLine(); // defining variable
 
             Console.WriteLine($"What word do you want to change {UserResponse} to ?");
             string UserResponse2 = Console.ReadLine();
 
-            if (message.Contains(UserResponse))
+            if (message.Contains(UserResponse)) 
             {
                 string NewMessage = message.Replace(UserResponse,UserResponse2);
                 Console.WriteLine(NewMessage);
