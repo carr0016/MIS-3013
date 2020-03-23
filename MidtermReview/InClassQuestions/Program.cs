@@ -15,7 +15,7 @@ namespace InClassQuestions
 
             Console.WriteLine("Please enter a number>>");
             string usersAnswersAsString = Console.ReadLine();
-            double usersAnswerAsDouble = Convert.ToDouble(usersAnswerAsString);
+            double usersAnswerAsDouble = Convert.ToDouble(usersAnswersAsString);
             allDaNumbers.Add(usersAnswerAsDouble);
 
             Console.WriteLine("Do you want to enter another numer? >>");
@@ -26,7 +26,7 @@ namespace InClassQuestions
             {
                 Console.WriteLine("Please enter a number>>");
                 usersAnswersAsString = Console.ReadLine();
-                usersAnswerAsDouble = Convert.ToDouble(usersAnswerAsString);
+                usersAnswerAsDouble = Convert.ToDouble(usersAnswersAsString);
                 allDaNumbers.Add(usersAnswerAsDouble);
 
                 Console.WriteLine("Do you want to enter another number?>>");
@@ -52,4 +52,4 @@ namespace InClassQuestions
             }
         }
     }
-}
+

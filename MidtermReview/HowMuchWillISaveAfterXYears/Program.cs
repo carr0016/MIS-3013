@@ -10,26 +10,40 @@ namespace HowMuchWillISaveAfterXYears
     {
         static void Main(string[] args)
         {
-            //didnt finish
+            double moneysavedinweek = 0;
+            double intrate = 0;
+            int years = 0;
 
+            Console.WriteLine("how much momey will u save in a week");
+            moneysavedinweek = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("How much money do you want to save a week?");
-            double moneyweek = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("how much interest");
+            intrate = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("How much interest rate will you get per month?");
-            double intrate = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("how many years");
+            years = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("How many years would you like to save for?");
-            int yearsave= Convert.ToInt32(Console.ReadLine());
+            int numofyears = 0;
+            double totalamountsaved = 0;
 
-            double AmountSavedPerMonth = (moneyweek * 4);
-            double TotalAmountSaved = AmountSavedPerMonth;
-            
-            for (int i = 1; i <= yearsave *12; i++)
+            for (int month = 1; month <= years *12; month++)
             {
-                TotalAmountSaved = (TotalAmountSaved + AmountSavedPerMonth) * (1 + intrate);
-                Console.WriteLine(TotalAmountSaved);  
+                totalamountsaved += moneysavedinweek * 4;
+                totalamountsaved += totalamountsaved * intrate;
+
+                if (month == 1)
+                {
+                    numofyears++;
+                    Console.WriteLine("Janurary, year" + numofyears + totalamountsaved);
+                }
+                else if (month == 2)
+                {
+                    numofyears++;
+                    Console.WriteLine("Februrary, year" + numofyears + totalamountsaved);
+                }
             }
+
+
 
             Console.ReadKey();
         }
