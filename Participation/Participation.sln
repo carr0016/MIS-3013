@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "Participation\StringManipulation.csproj", "{F0CD4857-C036-42C3-A684-4CC8A5CBDBA5}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections2", "Collections2\Collections2.csproj", "{C1043944-76F7-48E1-887A-5E5D894009F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsCalculator", "ConsoleApp3\FunctionsCalculator.csproj", "{FD95751C-AB37-45D5-AECB-0E7C7C897500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{28E6AA81-7B79-4792-81F8-82F1FC1345ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglesandCirclesParticipation", "Classes2\RectanglesandCirclesParticipation.csproj", "{723E290D-DDAC-492E-AA52-AE05237848D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{FD95751C-AB37-45D5-AECB-0E7C7C897500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD95751C-AB37-45D5-AECB-0E7C7C897500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD95751C-AB37-45D5-AECB-0E7C7C897500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E6AA81-7B79-4792-81F8-82F1FC1345ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E6AA81-7B79-4792-81F8-82F1FC1345ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E6AA81-7B79-4792-81F8-82F1FC1345ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E6AA81-7B79-4792-81F8-82F1FC1345ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723E290D-DDAC-492E-AA52-AE05237848D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723E290D-DDAC-492E-AA52-AE05237848D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723E290D-DDAC-492E-AA52-AE05237848D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723E290D-DDAC-492E-AA52-AE05237848D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
