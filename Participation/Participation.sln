@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglesandCirclesParticipation", "Classes2\RectanglesandCirclesParticipation.csproj", "{723E290D-DDAC-492E-AA52-AE05237848D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesStudent1", "ClassesStudent1\ClassesStudent1.csproj", "{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{723E290D-DDAC-492E-AA52-AE05237848D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723E290D-DDAC-492E-AA52-AE05237848D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723E290D-DDAC-492E-AA52-AE05237848D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
