@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglesandCirclesPartici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesStudent1", "ClassesStudent1\ClassesStudent1.csproj", "{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes2Toys", "Classes2Toys\Classes2Toys.csproj", "{A2ACC659-D20E-40C6-8595-F5C7ED773853}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB5076D-21DC-4ADC-83A5-FA823B7F23D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2ACC659-D20E-40C6-8595-F5C7ED773853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ACC659-D20E-40C6-8595-F5C7ED773853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ACC659-D20E-40C6-8595-F5C7ED773853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ACC659-D20E-40C6-8595-F5C7ED773853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
