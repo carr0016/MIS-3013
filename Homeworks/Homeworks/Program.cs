@@ -11,10 +11,10 @@ namespace Homeworks
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter your name.");
+            Console.WriteLine("Enter your name");
             string Name = Console.ReadLine();
 
-            Console.WriteLine("Emter your salary.");
+            Console.WriteLine("Emter your salary");
             double Salary;
 
             do
@@ -91,6 +91,8 @@ namespace Homeworks
             Console.WriteLine(MSG);
         }
 
+
     }
+    
 }
-}
+
