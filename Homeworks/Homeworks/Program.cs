@@ -14,7 +14,7 @@ namespace Homeworks
             Console.WriteLine("Enter your name");
             string Name = Console.ReadLine();
 
-            Console.WriteLine("Emter your salary");
+            Console.WriteLine("Enter your salary");
             double Salary;
 
             do
