@@ -27,30 +27,25 @@ namespace WPF_1_Participation
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string Name, FavColor;
+            string Name;
+            string Color;
             Name = txtName.Text;
-            FavColor = txtColor.Text;
+            Color = txtColor.Text;
 
-            if (FavColor == "pink")
+            if (Color == "pink")
             {
-                MessageBox.Show($"Wow {Name}, we have the same favorite color!");
+                MessageBox.Show($"{Name}, we have the same favorite color!");
             }
             else
             {
-                MessageBox.Show($"{Name} that is really cool, I never would have expected your favorite color to be { FavColor}");
+                MessageBox.Show($"{Name} that is really cool, I never would have expected your favorite color to be {Color} ");
             }
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
         }
 
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
-
     }
-
-      
     }
-}
