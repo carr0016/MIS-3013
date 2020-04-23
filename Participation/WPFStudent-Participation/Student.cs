@@ -16,5 +16,9 @@ namespace WPFStudent_Participation
         {
 
         }
+        public string toString()
+        {
+            return StudentID.ToString() + "," + FirstName.ToString() + "," + LastName.ToString() + "," + FavoriteColor.ToString();
+        }
     }
 }

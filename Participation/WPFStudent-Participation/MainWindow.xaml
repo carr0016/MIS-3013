@@ -9,8 +9,8 @@
     <Grid Background="#FFA9D8FF">
         <Label x:Name="StudentID" Content="StudentID" HorizontalAlignment="Left" Height="52" Margin="10,29,0,0" VerticalAlignment="Top" Width="145"/>
         <Label x:Name="FirstName" Content="FirstName" HorizontalAlignment="Left" Height="52" Margin="10,63,0,0" VerticalAlignment="Top" Width="145"/>
-        <Label x:Name="LastName" Content="LastName" HorizontalAlignment="Left" Height="52" Margin="0,97,0,0" VerticalAlignment="Top" Width="145"/>
-        <Label x:Name="FavoriteColor" Content="FavoriteColor" HorizontalAlignment="Left" Height="52" Margin="10,131,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="LastName" Content="LastName" HorizontalAlignment="Left" Height="52" Margin="0,115,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="FavoriteColor" Content="FavoriteColor" HorizontalAlignment="Left" Height="52" Margin="0,168,0,0" VerticalAlignment="Top" Width="145"/>
         <TextBox x:Name="StudentIDAnswer" HorizontalAlignment="Left" Height="34" Margin="203,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
         <TextBox x:Name="FirstNameAnswer" HorizontalAlignment="Left" Height="34" Margin="203,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
         <TextBox x:Name="LastNameAnswer" HorizontalAlignment="Left" Height="34" Margin="203,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>

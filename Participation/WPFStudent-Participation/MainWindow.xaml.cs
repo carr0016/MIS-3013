@@ -27,6 +27,7 @@ namespace WPFStudent_Participation
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             String StudentID;
             StudentID = StudentIDAnswer.Text;
             int StudentIDNum = Convert.ToInt32(StudentID);
@@ -46,6 +47,12 @@ namespace WPFStudent_Participation
             ListBox.Items.Add(FirstName);
             ListBox.Items.Add(LastName);
             ListBox.Items.Add(FavoriteColor);
+
+            StudentIDAnswer.Text = "";
+            FirstNameAnswer.Text = "";
+            LastNameAnswer.Text = "";
+            FavoriteColorAnswer.Text = "";
+
 
         }
     }
