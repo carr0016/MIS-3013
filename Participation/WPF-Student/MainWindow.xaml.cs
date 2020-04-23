@@ -30,14 +30,28 @@ namespace WPF_Student
             string StudentID;
             StudentID = txtStudentID.Text;
             int StudentIDNum = Convert.ToInt32(StudentID);
+
             string FirstName;
             FirstName = txtFirstName1.Text;
+
             string LastName;
             LastName = txtLastName.Text;
+
             string FavoriteColor;
             FavoriteColor = txtFavoriteColor.Text;
-            
 
+            lstCharacters.Items.Add(StudentID);
+            lstCharacters.Items.Add(FirstName);
+            lstCharacters.Items.Add(LastName);
+            lstCharacters.Items.Add(FavoriteColor);
+
+
+            }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            lstCharacters.Items.Clear();
         }
     }
-}
+    }
+

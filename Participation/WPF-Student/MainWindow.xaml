@@ -21,9 +21,9 @@
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="43" Margin="104,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231"/>
         <Label x:Name="lblFavoriteColor" Content="FavoriteColor:" HorizontalAlignment="Left" Height="31" Margin="0,240,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" FontSize="14"/>
         <TextBox x:Name="txtFavoriteColor" HorizontalAlignment="Left" Height="43" Margin="104,228,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231"/>
-        <ListBox HorizontalAlignment="Left" Height="241" Margin="500,68,0,0" VerticalAlignment="Top" Width="258" SelectionChanged="ListBox_SelectionChanged"/>
-        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="51" Margin="25,309,0,0" VerticalAlignment="Top" Width="138" Click="btnAdd_Click"/>
-        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Height="51" Margin="215,309,0,0" VerticalAlignment="Top" Width="138"/>
+        <ListBox x:Name="lstCharacters" HorizontalAlignment="Left" Height="241" Margin="500,68,0,0" VerticalAlignment="Top" Width="258" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="51" Margin="25,309,0,0" VerticalAlignment="Top" Width="138" Click="btnAdd_Click" IsDefault="True"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Height="51" Margin="215,309,0,0" VerticalAlignment="Top" Width="138" Click="btnClear_Click"/>
 
     </Grid>
 </Window>
