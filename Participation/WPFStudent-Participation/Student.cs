@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WPF_Student
+namespace WPFStudent_Participation
 {
     class Student
     {
@@ -12,7 +12,6 @@ namespace WPF_Student
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string FavoriteColor { get; set; }
-        
         public Student ()
         {
 

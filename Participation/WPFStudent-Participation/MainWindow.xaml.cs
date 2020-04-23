@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_Student
+namespace WPFStudent_Participation
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,29 +25,28 @@ namespace WPF_Student
             InitializeComponent();
         }
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string StudentID;
-            StudentID = txtStudentID.Text;
+            String StudentID;
+            StudentID = StudentIDAnswer.Text;
             int StudentIDNum = Convert.ToInt32(StudentID);
 
             string FirstName;
-            FirstName = txtFirstName1.Text;
+            FirstName = FirstNameAnswer.Text;
 
             string LastName;
-            LastName = txtLastName.Text;
+            LastName = LastNameAnswer.Text;
 
             string FavoriteColor;
-            FavoriteColor = txtFavoriteColor.Text;
+            FavoriteColor = FavoriteColorAnswer.Text;
 
-            lstCharacters.Items.Add(StudentID);
-            lstCharacters.Items.Add(FirstName);
-            lstCharacters.Items.Add(LastName);
-            lstCharacters.Items.Add(FavoriteColor);
+            Student newStudent = new Student();
 
+            ListBox.Items.Add(StudentID);
+            ListBox.Items.Add(FirstName);
+            ListBox.Items.Add(LastName);
+            ListBox.Items.Add(FavoriteColor);
 
-            }
-
+        }
     }
-    }
-
+}

@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPFStudent_Participation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStudent_Participation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFA9D8FF">
+        <Label x:Name="StudentID" Content="StudentID" HorizontalAlignment="Left" Height="52" Margin="10,29,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="FirstName" Content="FirstName" HorizontalAlignment="Left" Height="52" Margin="10,63,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="LastName" Content="LastName" HorizontalAlignment="Left" Height="52" Margin="0,97,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="FavoriteColor" Content="FavoriteColor" HorizontalAlignment="Left" Height="52" Margin="10,131,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="StudentIDAnswer" HorizontalAlignment="Left" Height="34" Margin="203,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="FirstNameAnswer" HorizontalAlignment="Left" Height="34" Margin="203,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="LastNameAnswer" HorizontalAlignment="Left" Height="34" Margin="203,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="FavoriteColorAnswer" HorizontalAlignment="Left" Height="34" Margin="203,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name="CreateButton" Content="Create Student" HorizontalAlignment="Left" Height="76" Margin="66,273,0,0" VerticalAlignment="Top" Width="193"/>
+        <ListBox x:Name="ListBox" HorizontalAlignment="Left" Height="258" Margin="489,63,0,0" VerticalAlignment="Top" Width="260"/>
+
+    </Grid>
+</Window>
