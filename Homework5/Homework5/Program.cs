@@ -10,9 +10,10 @@ namespace Homework5
     {
         static void Main(string[] args)
         {
-           
-       
-            }
+            
+            Console.ReadKey();
+
+        }
         }
     }
-}
+

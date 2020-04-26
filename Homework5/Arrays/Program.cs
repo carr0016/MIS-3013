@@ -10,6 +10,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+            //Riley Carr
             Console.WriteLine("How many student names do you want to store?");
             //reading number of students
             int numberOfStudents = int.Parse(Console.ReadLine());
