@@ -10,28 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            List<double> GradesList = new List<double>();
-            string Answer;
-
-            do
+            // Create a list of 2 strings.
+            var names = new List<string>() { "Ashlynn Dunbar", "Paige Anderson","Paige Johnson", "Kylee McKaughlin", "Hali'a Swartman-Hogan", "Sanaa Dotson", "Haley Sanchez", "Olivia Curtis", "Keyton Kinley", "Sarah Maras", "Abby Butler" , "Sarah Sanders", "Kira Morikawa", "Sabrina Simms", "Aysia Harty", "Brianna Kadiku", "Rylie Gregston" };
+   
+            foreach (string value in names)
             {
-                Console.WriteLine("Enter your grade");
-                double Grade = Convert.ToDouble(Console.ReadLine());
-                GradesList.Add(Grade);
-
-                Console.WriteLine("Do you want to enter another exam grade");
-                Answer = Console.ReadLine();
-
-            } while (Answer == "yes");
-
-
-            double Sum = 0;
-
-            foreach (var Grade in GradesList)
-            {
-                Sum = Sum + GradesList[i];
+                Console.WriteLine("Name: " + value);
             }
+            Console.ReadKey();
+        }
+    
 
         }
     }
-}
+
