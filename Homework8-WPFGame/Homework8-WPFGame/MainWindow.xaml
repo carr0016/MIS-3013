@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:Homework8_WPFGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFDEFFFD">
         <Image Margin="433,29,24,86" Source="7fd654e4ed2675f4606bd72177eb1fb2[1].jpg" Stretch="Fill"/>
+        <Button x:Name="button1" Content="Button1" HorizontalAlignment="Left" Height="47" Margin="449,57,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <Button x:Name="button2" Content="Button2" HorizontalAlignment="Left" Height="47" Margin="562,57,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <Button x:Name="button3" Content="Button3" HorizontalAlignment="Left" Height="49" Margin="678,57,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name="button4" Content="Button 4" HorizontalAlignment="Left" Height="61" Margin="461,155,0,0" VerticalAlignment="Top" Width="69"/>
+        <Button x:Name="button5" Content="Button5" HorizontalAlignment="Left" Height="49" Margin="562,161,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button x:Name="button6" Content="Button 6" HorizontalAlignment="Left" Height="65" Margin="678,155,0,0" VerticalAlignment="Top" Width="86"/>
+        <Button x:Name="button7" Content="Button 7" HorizontalAlignment="Left" Height="57" Margin="449,243,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="button8" Content="Button 8" HorizontalAlignment="Left" Height="45" Margin="575,255,0,0" VerticalAlignment="Top" Width="66" RenderTransformOrigin="0.22,0.021"/>
+        <Button x:Name="button9" Content="Button 9" HorizontalAlignment="Left" Height="51" Margin="678,249,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="turn" Content="Turn" HorizontalAlignment="Left" Height="49" Margin="10,29,0,0" VerticalAlignment="Top" Width="168" FontSize="24"/>
+        <Label x:Name="displayturn" Content="" HorizontalAlignment="Left" Height="62" Margin="10,68,0,0" VerticalAlignment="Top" Width="209" Background="White"/>
     </Grid>
 </Window>

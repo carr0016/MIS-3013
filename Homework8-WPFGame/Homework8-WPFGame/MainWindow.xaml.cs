@@ -25,5 +25,15 @@ namespace Homework8_WPFGame
         {
             InitializeComponent();
         }
+        int Xor0 = 0;
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           
+
+
+            }
+
+
+        }
     }
 }
