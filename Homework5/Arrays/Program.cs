@@ -10,27 +10,34 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+            string studentnumber, answer;
+            List<double> number = new List<double>();
 
-            string[] FirstName = new string[1];
-            string[] LastName = new string[1];
-
-            for (int i = 0; i < CourseName.Length; i++)
+            do
             {
-                Console.WriteLine("Please input a course name");
-                CourseName[i] = Console.ReadLine();
-                Console.WriteLine("Please input one course number");
-                CourseNumber[i] = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"How many students names do you want to store");
+                studentnumber = Console.ReadLine();
+                double es = Convert.ToDouble(studentnumber);
 
-            }
+                number.Add(es);
 
-            for (int i = 0; i < CourseNumber.Length; i++)
-            {
-                Console.WriteLine(CourseName[i] + CourseNumber[i]);
-            }
+                Console.WriteLine("What is the student first name");
+                string firstname = Console.ReadLine();
+
+                Console.WriteLine("What is the student last name");
+                string lastname = Console.ReadLine();
+
+            } while (answer.ToLower() == "yes");
+
+
+
+            Console.WriteLine($" {lastname} ");
+         
+
+            Console.ReadKey();
 
            
 
-            Console.ReadKey();
         }
     }
 }
