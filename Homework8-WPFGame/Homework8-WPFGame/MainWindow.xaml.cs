@@ -75,7 +75,7 @@ namespace Homework8_WPFGame
             button.Content = mPlayer1Turn ? "X" : "O";
 
             if (!mPlayer1Turn)
-                    button.Foreground = Brushes.Red;
+                button.Foreground = Brushes.Red;
 
             mPlayer1Turn ^= true;
             CheckForWinner();
@@ -145,9 +145,9 @@ namespace Homework8_WPFGame
                     {
                     button.Background = Brushes.Orange;
                 });
+
             }
-
-
+         
         }
     }
     }

@@ -8,29 +8,65 @@ namespace Homework5
 {
     class Program
     {
+        //Riley Carr
         static void Main(string[] args)
         {
-            Dictionary<string, int> Directory = new Dictionary<string, int>();
-            Console.WriteLine("Would you like to add a new category");
+            Dictionary<string, List<string>> fruit = new Dictionary<string, List<string>>();
+           fruit.Add("Fruits", new List<string>());
+            fruit["Fruits"].Add("Apple");
+            fruit["Fruits"].Add("Banana");
+            fruit["Fruits"].Add("Watermelon");
+
+            Dictionary<string, List<string>> veg = new Dictionary<string, List<string>>();
+            veg.Add("Vegetables", new List<string>());
+            veg["Vegetables"].Add("Carrots");
+            veg["Vegetables"].Add("Lettuce");
+            veg["Vegetables"].Add("Cucumber");
+
+
+            Dictionary<string, List<string>> chip = new Dictionary<string, List<string>>();
+            chip.Add("Chips", new List<string>());
+            chip["Chips"].Add("Cheetos");
+            chip["Chips"].Add("Lays");
+            chip["Chips"].Add("Ruffles");
+
+            Console.WriteLine("Would you like to add a new category or a new food?");
             string answer = Console.ReadLine();
-           if (answer == "Yes")
+            if (answer == "new category")
             {
-                Console.WriteLine("Enter the Name ");
-                string Name = Console.ReadLine();
-                Console.WriteLine("Enter the Age ");
-                int Age = Convert.ToInt32(Console.ReadLine());
-                Directory.Add(Name, Age);
+                Console.WriteLine("What category would you like to add ?");
             }
-            Console.WriteLine("Press key to display the contents of your dictionary..");
-            Console.ReadLine();
-            foreach (var item in Directory)
+            else if (answer == "new food")
             {
-                Console.WriteLine("Name : " + item.Key);
-                Console.WriteLine("Age : " + item.Value);
+                Console.WriteLine("What category would you like to add");
+                string catanswer = Console.ReadLine();
+                if (catanswer == "Fruits")
+                {
+                    Console.WriteLine("what fruit");
+                    string fruitanswer = Console.ReadKey();
+                    fruit["Fruits"].Add(fruitanswer);
+                }
+                if (catanswer == "Vegetables")
+                {
+                    Console.WriteLine("what vegetable");
+                    string veganswer = Console.ReadKey();
+                    fruit["Vegetables"].Add(veganswer);
+                }
+                else if (catanswer == "Chips")
+                {
+                    Console.WriteLine("What chip?");
+                    string chipanswer = Console.ReadLine();
+                    chip["Chips"].Add("chipanswer");
+                }
             }
-            Console.ReadLine();
+            
+
+            Console.WriteLine($"Fruits: Apple, Banana, Watermelon ");
+            Console.WriteLine("Vegetables: Carrots, Lettuce, Cucumber");
+            Console.WriteLine("Chips: Cheetos, Lays, Ruffles");
 
             Console.ReadKey();
+
         }
 
     }
