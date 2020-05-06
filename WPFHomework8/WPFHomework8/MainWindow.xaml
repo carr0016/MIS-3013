@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="356,0,0,0" VerticalAlignment="Top" Width="149" Height="119" Click="button1_Click"/>
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Height="119" Margin="505,0,0,0" VerticalAlignment="Top" Width="148" Click="button2_Click"/>
+        <Button x:Name="button3" Content="" HorizontalAlignment="Left" Height="119" Margin="653,0,0,0" VerticalAlignment="Top" Width="139" Click="button3_Click" />
+        <Button x:Name="button4" Content="" HorizontalAlignment="Left" Height="124" Margin="356,119,0,0" VerticalAlignment="Top" Width="149" Click="button4_Click"/>
+        <Button x:Name="button5" Content="" HorizontalAlignment="Left" Height="124" Margin="505,119,0,0" VerticalAlignment="Top" Width="148" Click="button5_Click" />
+        <Button x:Name="button6" Content="" HorizontalAlignment="Left" Height="124" Margin="653,119,0,0" VerticalAlignment="Top" Width="139" Click="button6_Click" />
+        <Button x:Name="button7" Content="" HorizontalAlignment="Left" Height="121" Margin="356,243,0,0" VerticalAlignment="Top" Width="149" Click="button7_Click" />
+        <Button x:Name="button8" Content="" HorizontalAlignment="Left" Height="121" Margin="505,243,0,0" VerticalAlignment="Top" Width="148" Click="button8_Click" />
+        <Button x:Name="button9" Content="" HorizontalAlignment="Left" Height="121" Margin="653,243,0,0" VerticalAlignment="Top" Width="139" Click="button9_Click" />
+        <Label Content="Player 1" HorizontalAlignment="Left" Height="108" Margin="10,29,0,0" VerticalAlignment="Top" Width="192" FontSize="18"/>
+        <Label Content="Player 2" HorizontalAlignment="Left" Height="62" Margin="10,101,0,0" VerticalAlignment="Top" Width="128" FontSize="18"/>
+
+
+
+
+
     </Grid>
 </Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="GCPracticeRound.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GCPracticeRound"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Homework" Content="Homework 25%" HorizontalAlignment="Left" Height="70" Margin="10,10,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label x:Name="Participation" Content="Class Participation 10%" HorizontalAlignment="Left" Height="70" Margin="10,80,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label x:Name="Quizzes" Content="Quizzes 10%" HorizontalAlignment="Left" Height="70" Margin="0,132,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label x:Name="Midterm" Content="Midterm 25%" HorizontalAlignment="Left" Height="70" Margin="0,184,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label x:Name="Final" Content="Final 30%" HorizontalAlignment="Left" Height="70" Margin="0,259,0,0" VerticalAlignment="Top" Width="161"/>
+        <TextBox x:Name="tb_classpart" HorizontalAlignment="Left" Height="56" Margin="347,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="tb_quizzes" HorizontalAlignment="Left" Height="56" Margin="347,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="tb_midterm" HorizontalAlignment="Left" Height="56" Margin="347,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="tb_final" HorizontalAlignment="Left" Height="56" Margin="347,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <Button x:Name="Button" Content="Calculate" HorizontalAlignment="Left" Height="57" Margin="107,352,0,0" VerticalAlignment="Top" Width="339" Click="Button_Click"/>
+        <Label Content="Grade:" HorizontalAlignment="Left" Height="67" Margin="556,53,0,0" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtGrade" HorizontalAlignment="Left" Height="89" Margin="680,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="tb_homework" HorizontalAlignment="Left" Height="43" Margin="347,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+
+    </Grid>
+</Window>
